@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartClock</string>
+    <string name="title_globe">World Clock</string>
+    <string name="title_clock">Báo thức</string>
+    <string name="title_bed">Bedtime</string>
+    <string name="title_stopwatch">Stopwatch</string>
+    <string name="title_timer">Đếm giờ</string>
+
+</resources>

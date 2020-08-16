@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_clock">
+
+    <fragment
+        android:id="@+id/navigation_globe"
+        android:name="com.example.smartclock.ui.clock.ClockFragment"
+        android:label="@string/title_globe"
+        tools:layout="@layout/fragment_clock" />
+
+    <fragment
+        android:id="@+id/navigation_clock"
+        android:name="com.example.smartclock.ui.global.GlobalFragment"
+        android:label="@string/title_clock"
+        tools:layout="@layout/fragment_global" />
+
+    <fragment
+        android:id="@+id/navigation_bed"
+        android:name="com.example.smartclock.ui.bedtime.BedtimeFragment"
+        android:label="@string/title_bed"
+        tools:layout="@layout/fragment_bed" />
+    <fragment
+        android:id="@+id/navigation_stopwatch"
+        android:name="com.example.smartclock.ui.bedtime.BedtimeFragment"
+        android:label="@string/title_bed"
+        tools:layout="@layout/fragment_bed" />
+    <fragment
+        android:id="@+id/navigation_timer"
+        android:name="com.example.smartclock.ui.bedtime.BedtimeFragment"
+        android:label="@string/title_bed"
+        tools:layout="@layout/fragment_bed" />
+</navigation>
